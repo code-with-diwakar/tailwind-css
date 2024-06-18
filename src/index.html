@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  
+</head>
+<body>
+ <button id="button" class="hii">Click Me</button>
+ <div id="container" class="bg-pink-400 h-40 mt-6">
+ </div>
+ <script>
+  const button = document.getElementById("button");
+  const container = document.getElementById("container");
+  button.addEventListener("click",()=>{
+    container.classList.toggle("bg-pink-400");
+    container.classList.toggle("bg-yellow-400");
+  })
+   </script>
+</body>
+</html>
